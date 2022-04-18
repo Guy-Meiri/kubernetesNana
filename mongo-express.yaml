@@ -43,7 +43,7 @@ metadata:
 spec:
   selector:
     app: mongo-express
-  type: LoadBalancer
+  type: NodePort #to tunnel: run kubectl port-forward service/mongo-express 30000:8081
   ports:
   - port: 8081
     targetPort: 8081
