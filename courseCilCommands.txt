@@ -1,0 +1,2 @@
+kubectl create deployment nginx-depl --image=nginx:1.16
+kubectl create deployment mongo-depl --image=mongo
